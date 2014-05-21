@@ -14,13 +14,13 @@
 		6F2F7CAE192CE53F00812BB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2F7CAD192CE53F00812BB5 /* main.m */; };
 		6F2F7CB2192CE53F00812BB5 /* JCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2F7CB1192CE53F00812BB5 /* JCAppDelegate.m */; };
 		6F2F7CB5192CE53F00812BB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F2F7CB3192CE53F00812BB5 /* Main.storyboard */; };
-		6F2F7CB8192CE53F00812BB5 /* JCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2F7CB7192CE53F00812BB5 /* JCViewController.m */; };
 		6F2F7CBA192CE53F00812BB5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F2F7CB9192CE53F00812BB5 /* Images.xcassets */; };
 		6F2F7CC1192CE53F00812BB5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F2F7CC0192CE53F00812BB5 /* XCTest.framework */; };
 		6F2F7CC2192CE53F00812BB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F2F7CA1192CE53F00812BB5 /* Foundation.framework */; };
 		6F2F7CC3192CE53F00812BB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F2F7CA5192CE53F00812BB5 /* UIKit.framework */; };
 		6F2F7CCB192CE53F00812BB5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F2F7CC9192CE53F00812BB5 /* InfoPlist.strings */; };
 		6F2F7CCD192CE53F00812BB5 /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2F7CCC192CE53F00812BB5 /* UITableViewController_Challenge_SolutionTests.m */; };
+		6F2F7CD8192CE84A00812BB5 /* JCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2F7CD7192CE84A00812BB5 /* JCTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		6F2F7CB0192CE53F00812BB5 /* JCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCAppDelegate.h; sourceTree = "<group>"; };
 		6F2F7CB1192CE53F00812BB5 /* JCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCAppDelegate.m; sourceTree = "<group>"; };
 		6F2F7CB4192CE53F00812BB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6F2F7CB6192CE53F00812BB5 /* JCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCViewController.h; sourceTree = "<group>"; };
-		6F2F7CB7192CE53F00812BB5 /* JCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCViewController.m; sourceTree = "<group>"; };
 		6F2F7CB9192CE53F00812BB5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6F2F7CBF192CE53F00812BB5 /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F2F7CC0192CE53F00812BB5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6F2F7CC8192CE53F00812BB5 /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		6F2F7CCA192CE53F00812BB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6F2F7CCC192CE53F00812BB5 /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		6F2F7CD6192CE84A00812BB5 /* JCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCTableViewController.h; sourceTree = "<group>"; };
+		6F2F7CD7192CE84A00812BB5 /* JCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				6F2F7CB0192CE53F00812BB5 /* JCAppDelegate.h */,
 				6F2F7CB1192CE53F00812BB5 /* JCAppDelegate.m */,
 				6F2F7CB3192CE53F00812BB5 /* Main.storyboard */,
-				6F2F7CB6192CE53F00812BB5 /* JCViewController.h */,
-				6F2F7CB7192CE53F00812BB5 /* JCViewController.m */,
+				6F2F7CD6192CE84A00812BB5 /* JCTableViewController.h */,
+				6F2F7CD7192CE84A00812BB5 /* JCTableViewController.m */,
 				6F2F7CB9192CE53F00812BB5 /* Images.xcassets */,
 				6F2F7CA8192CE53F00812BB5 /* Supporting Files */,
 			);
@@ -250,8 +250,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F2F7CD8192CE84A00812BB5 /* JCTableViewController.m in Sources */,
 				6F2F7CAE192CE53F00812BB5 /* main.m in Sources */,
-				6F2F7CB8192CE53F00812BB5 /* JCViewController.m in Sources */,
 				6F2F7CB2192CE53F00812BB5 /* JCAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
